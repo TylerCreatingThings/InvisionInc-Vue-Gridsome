@@ -1,0 +1,22 @@
+{
+  "name": "invision-inc",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "build-local": "SET NODE_OPTIONS=--openssl-legacy-provider && gridsome build",
+    "develop-local": "SET NODE_OPTIONS=--openssl-legacy-provider && gridsome develop",
+    "explore-local": "SET NODE_OPTIONS=--openssl-legacy-provider && gridsome explore"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.4.0",
+    "core-js": "^3.21.0",
+    "gridsome": "^0.7.17",
+    "vuetify": "^2.3.0"
+  },
+  "devDependencies": {
+    "cache-loader": "^4.1.0",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
