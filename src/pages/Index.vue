@@ -215,7 +215,7 @@ export default {
         clientName: "Restaurant",
         mainImage: "mainSlider/sunsetgrill.png",
         mainText:
-          "From their one off Queen street store location to their now over 90 franchises and growing, Sunset Gill is becoming the go to breakfast restaurant throughout Ontario. Building over 27 stores for SSG, inVision inc. is happy to share in their success. SSG’s quality of service and food mimics inVision inc.’s business model to provide it’s customers with a quality product second to none at competitive prices.",
+          "Sunset Grill began life as a small breakfast restaurant located on Queen street in Toronto, Canada.  With the help from InVision Inc. they now have over 90 franchises and growing.  Sunset Gill is becoming the go to breakfast restaurant throughout Ontario. Building over 27 stores for Sunset Grill, inVision inc. is happy to share in their success.  Sunset Grill’s quality of service and food mimics inVision inc.’s business model to provide it’s customers with a quality product second to none at competitive prices",
       },
       {
         src: [
@@ -280,7 +280,7 @@ export default {
         ],
         path: "/house-renovation",
         projectName: "House Renovation",
-        projectType: "Resedential",
+        projectType: "Residential",
         clientName: "",
         mainImage: "mainSlider/residential.png",
         mainText:
