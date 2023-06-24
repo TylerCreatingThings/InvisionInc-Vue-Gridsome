@@ -96,14 +96,14 @@
             xs="10"
             style="place-self: center;"
           >
-            <g-image
+            <lazyload
               style="background-color: white !important;width:100%;background-position:center;"
               :src="require('~/assets/project_logos/' + n + '')"
               class="grey lighten-2"
               fit="cover"
               position="center"
-            >
-            </g-image>
+              defer
+            />
           </v-col>
         </v-row>
       </v-col>

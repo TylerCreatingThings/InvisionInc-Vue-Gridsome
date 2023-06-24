@@ -5,7 +5,7 @@ import DefaultLayout from '~/layouts/Default.vue'
 import Vuetify from "vuetify";
 import "vuetify/dist/vuetify.min.css";
 import colors from "vuetify/lib/util/colors";
-
+import VueLazyload from 'vue-lazyload'
 
 
 export default function (Vue, { appOptions, head, isClient }) {
@@ -33,6 +33,7 @@ export default function (Vue, { appOptions, head, isClient }) {
     }
   };
   Vue.use(Vuetify);
+  Vue.use(VueLazyload)
 
   appOptions.vuetify = new Vuetify(opts);
   Vue.component('Layout', DefaultLayout)
