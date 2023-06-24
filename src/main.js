@@ -18,6 +18,13 @@ export default function (Vue, { appOptions, head, isClient }) {
     href: "https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css"
   });
 
+  head.script.push({
+    src:"https://umami-production-d919.up.railway.app/umami.js",
+    'data-website-id':"230aaf77-9d48-4cf8-b1a7-572da3ca87a5",
+    async: true,
+    defer:true
+  });
+
   const opts = {
     icons: {
       iconfont: "fa" // 'mdi' || 'mdiSvg' || 'md' || 'fa' || 'fa4'

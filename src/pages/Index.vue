@@ -135,7 +135,7 @@ import SquareImage from "../components/SquareImage";
 
 export default {
   metaInfo: {
-    title: 'Invision Inc'
+    title: 'Home'
   },
   name: "Home2",
   components: {
