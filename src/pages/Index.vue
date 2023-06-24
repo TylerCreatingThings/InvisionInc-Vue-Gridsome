@@ -173,16 +173,16 @@ export default {
     ],
     items: [
       {
-        src: "mainSlider/feedery.png",
+        src: "mainSlider/feedery.webp",
       },
       {
-        src: "mainSlider/blackjack_bbq.png",
+        src: "mainSlider/blackjack_bbq.webp",
       },
       {
-        src: "mainSlider/sunsetgrill.png",
+        src: "mainSlider/sunsetgrill.webp",
       },
       {
-        src: "mainSlider/bagelbarn.png",
+        src: "mainSlider/bagelbarn.webp",
       },
     ],
     gridImageData: [
@@ -204,7 +204,7 @@ export default {
       },
       {
         src: [
-          "mainSlider/sunsetgrill.png",
+          "mainSlider/sunsetgrill.webp",
           "projects/Commercial/SunsetGrill/sunsetgrill_2.jpeg",
           "projects/Commercial/SunsetGrill/sunsetgrill_3.jpeg",
           "projects/Commercial/SunsetGrill/sunsetgrill_1.jpeg",
@@ -213,7 +213,7 @@ export default {
         projectName: "Sunset Grill",
         projectType: "Commercial",
         clientName: "Restaurant",
-        mainImage: "mainSlider/sunsetgrill.png",
+        mainImage: "mainSlider/sunsetgrill.webp",
         mainText:
           "Sunset Grill began life as a small breakfast restaurant located on Queen street in Toronto, Canada.  With the help from InVision Inc. they now have over 90 franchises and growing.  Sunset Gill is becoming the go to breakfast restaurant throughout Ontario. Building over 27 stores for Sunset Grill, inVision inc. is happy to share in their success.  Sunset Grill’s quality of service and food mimics inVision inc.’s business model to provide it’s customers with a quality product second to none at competitive prices",
       },
@@ -233,25 +233,25 @@ export default {
           "Cabanos, working hand in hand with the owner Kevin was a pleasure. From beginning to end this project had it's challenges.  This beautiful store is located within the main floor of a highrise residential condominium. The entire crew at iNVision inc managed to all of the obsticals they encountered and build a beautiful restaurant.  Cabanos is one of our favorite fit outs to showcase. It’s a smorgasbord of comfort food and a must to visit when roaming around the Yonge and Bloor district area. inVision inc. is happy to be a part of the Cabanos family",
       },
       {
-        src: ["mainSlider/loadedperogi.png"],
+        src: ["mainSlider/loadedperogi.webp"],
         path: "/loaded-perogi",
         projectName: "Loaded Perogi",
         projectType: "Commercial",
         clientName: "Restaurant",
-        mainImage: "mainSlider/loadedperogi.png",
+        mainImage: "mainSlider/loadedperogi.webp",
         mainText:
           "Situated in the Toronto Train terminal food court, Loaded Perogi definitely came with it’s challenges. It features a unique 3D character mural covered in a glass panel. Truly one of, if not, the most appealling restaurant in the entire food court",
       },
       {
         src: [
-          "mainSlider/bagelbarn.png",
+          "mainSlider/bagelbarn.webp",
           "projects/Commercial/BagelBarn/bagelbarn_1.jpeg",
         ],
         path: "/bagel-barn",
         projectName: "Bagel Barn",
         projectType: "Commercial",
         clientName: "Restaurant",
-        mainImage: "mainSlider/bagelbarn.png",
+        mainImage: "mainSlider/bagelbarn.webp",
         mainText:
           "We are happy to be part of this amazing New York style bagel bakery. The owner Terry is a unique entrepreneur with a nose for success. Bagel Barns bagel sell out daily and we hope to be part of the growing Bagel Barn team with future builds to come.",
       },
@@ -272,7 +272,7 @@ export default {
       },
       {
         src: [
-          "mainSlider/residential.png",
+          "mainSlider/residential.webp",
           "projects/Residential/project x/project_x_2.jpeg",
           "projects/Residential/project x/project_x_3.jpeg",
           "projects/Residential/project x/project_x_4.jpeg",
@@ -282,7 +282,7 @@ export default {
         projectName: "House Renovation",
         projectType: "Residential",
         clientName: "",
-        mainImage: "mainSlider/residential.png",
+        mainImage: "mainSlider/residential.webp",
         mainText:
           "Unique custom house renovation in just south of Klenburg. Post and Beam throughout as well as open concept modern kitchen area showcase this unique home and project. Let inVision inc help you with your next dream home project.",
       },
