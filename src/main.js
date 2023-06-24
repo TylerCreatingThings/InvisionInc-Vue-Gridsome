@@ -12,13 +12,11 @@ export default function (Vue, { appOptions, head, isClient }) {
   head.link.push({
     rel: "stylesheet",
     href: "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900",
-    async: true,
     defer:true
   });
   head.link.push({
     rel: "stylesheet",
     href: "https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css",
-    async: true,
     defer:true
   });
 
