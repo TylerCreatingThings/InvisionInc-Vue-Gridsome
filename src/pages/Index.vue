@@ -7,7 +7,6 @@
             v-for="(item, i) in items"
             :key="i"
             style="height: 85vh"
-             v-preload rel="preload" as="image" 
             :src="require('~/assets/'+item.src)"
             :lazy-src="require('~/assets/'+item.src)"
           ></v-carousel-item>
@@ -166,9 +165,9 @@ export default {
       "cosmo_musc.png",
       "feedery_logo.png",
       "freshii.png",
-      "kernels_popcorn_logo.png",
+      "kernels_popcorn_logo.webp",
       "loaded_perogi.webp",
-      "lullaboo.png",
+      "lullaboo.webp",
       "opa.png",
       "Rizzoto.jpg",
     ],
@@ -189,7 +188,7 @@ export default {
     gridImageData: [
       {
         src: [
-          "projects/Commercial/BlackJack BBQ/blackjack_bbq.png",
+          "mainSlider/blackjack_bbq.webp",
           "projects/Commercial/BlackJack BBQ/blackjack_bbq_1.jpeg",
           "projects/Commercial/BlackJack BBQ/blackjack_bbq_2.jpeg",
           "projects/Commercial/BlackJack BBQ/blackjack_bbq_3.jpeg",
@@ -199,7 +198,7 @@ export default {
         projectName: "Black Jack BBQ",
         projectType: "Commercial",
         clientName: "Restaurant",
-        mainImage: "projects/Commercial/BlackJack BBQ/blackjack_bbq.png",
+        mainImage: "mainSlider/blackjack_bbq.webp",
         mainText:
           "One of a kind New Orleans smoke meat themed restaurant located in the new Food District Square One Mall Mississauga, Ontario, Canada. All of this custom made workmanship was integrated with unique one off faux millwork music amps, and a feature mural created by the famous Toronto mural artist, Christian De Araujo. Everything came together to create a unique atmosphere and overall visual delight.",
       },
@@ -258,7 +257,7 @@ export default {
       },
       {
         src: [
-          "projects/Commercial/Daniel Espenosa/Daniel_Espenosa_1.jpeg",
+          "projects/Commercial/Daniel Espenosa/Daniel_Espenosa_1.webp",
           "projects/Commercial/Daniel Espenosa/Daniel_Espenosa_2.jpeg",
           "projects/Commercial/Daniel Espenosa/Daniel_Espenosa_3.jpeg",
           "projects/Commercial/Daniel Espenosa/Daniel Espinosa 4.jpeg",
@@ -267,7 +266,7 @@ export default {
         projectName: "Daniel Espinosa",
         projectType: "Commercial",
         clientName: "Jewelry",
-        mainImage: "projects/Commercial/Daniel Espenosa/Daniel_Espenosa_1.jpeg",
+        mainImage: "projects/Commercial/Daniel Espenosa/Daniel_Espenosa_1.webp",
         mainText:
           "A unique Jewelry store with Showcase Room situated in the downtown toronto area. Very custom glass and wood-work flow throughout the entire project. The final product turned out to be an amazing successful buildout.",
       },
@@ -289,7 +288,7 @@ export default {
       },
       {
         src: [
-          "projects/Commercial/Miss Sixty/Miss Sixty Yorkdale.jpeg",
+          "projects/Commercial/Miss Sixty/Miss Sixty Yorkdale.webp",
           "projects/Commercial/Miss Sixty/Miss Sixty 1.jpeg",
           "projects/Commercial/Miss Sixty/Miss Sixty 2.jpeg",
           "projects/Commercial/Miss Sixty/Miss Sixty 3.jpeg",
@@ -298,7 +297,7 @@ export default {
         projectName: "Miss Sixty",
         projectType: "Commercial",
         clientName: "Fashion/Retail",
-        mainImage: "projects/Commercial/Miss Sixty/Miss Sixty Yorkdale.jpeg",
+        mainImage: "projects/Commercial/Miss Sixty/Miss Sixty Yorkdale.webp",
         mainText:
           "Unique fashion store MissSixty, built in the world renown Yorkdale Mall in Toronto. One off lacquer finished clothing fixtures and Billboard one off storefront signage anchor this beautiful store.  This store set the standards for fit and finish throughout the mall",
       },

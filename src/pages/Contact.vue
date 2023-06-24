@@ -1,6 +1,6 @@
 <template>
 <Layout>
-  <div>
+  <div style="height:83vh;">
     <div class="center-div" style="padding-top:15vh;color:rgb(16, 56, 125);" v-show="showThankyou">
       <h1>{{text}}</h1>
     </div>
