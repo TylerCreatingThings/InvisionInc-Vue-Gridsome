@@ -11,8 +11,12 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.4",
     "core-js": "^3.21.0",
     "gridsome": "^0.7.17",
+    "gridsome-plugin-netlify-cms": "^1.0.9",
+    "netlify-cms": "^2.10.186",
     "vuetify": "^2.3.0"
   },
   "devDependencies": {
