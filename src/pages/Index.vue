@@ -7,6 +7,7 @@
             v-for="(item, i) in items"
             :key="i"
             style="height: 85vh"
+             v-preload rel="preload" as="image" 
             :src="require('~/assets/'+item.src)"
             :lazy-src="require('~/assets/'+item.src)"
           ></v-carousel-item>
