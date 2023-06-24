@@ -15,7 +15,6 @@
           v-for="(image, i) in mainObject.src"
           :key="i"
           style="height:50vh"
-          :src="require('~/assets/'+image)"
           :lazy-src="require('~/assets/'+image)"
         ></v-carousel-item>
       </v-carousel>
